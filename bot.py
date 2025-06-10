@@ -66,7 +66,7 @@ async def start():
     now = datetime.now(tz)
     time = now.strftime("%H:%M:%S %p")
     await Webavbot.send_message(LOG_CHANNEL, text=script.RESTART_TXT.format(today, time))
-    await Webavbot.send_message(ADMINS[0], text='<b>ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ !!</b>')
+    await Webavbot.send_message(ADMINS[7525127704], text='<b>ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ !!</b>')
     app = web.AppRunner(await web_server())
     await app.setup()
     bind_address = "0.0.0.0"
